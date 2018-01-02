@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F2850B1FFB7C85005FEB55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2850A1FFB7C85005FEB55 /* AppDelegate.m */; };
+		18F2850E1FFB7C85005FEB55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2850D1FFB7C85005FEB55 /* ViewController.m */; };
+		18F285111FFB7C85005FEB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2850F1FFB7C85005FEB55 /* Main.storyboard */; };
+		18F285131FFB7C85005FEB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F285121FFB7C85005FEB55 /* Assets.xcassets */; };
+		18F285161FFB7C85005FEB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F285141FFB7C85005FEB55 /* LaunchScreen.storyboard */; };
+		18F285191FFB7C85005FEB55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F285181FFB7C85005FEB55 /* main.m */; };
+		18F285231FFB7C85005FEB55 /* LuyuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F285221FFB7C85005FEB55 /* LuyuanTests.m */; };
+		18F2852E1FFB7C85005FEB55 /* LuyuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2852D1FFB7C85005FEB55 /* LuyuanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F2851F1FFB7C85005FEB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F284FE1FFB7C85005FEB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F285051FFB7C85005FEB55;
+			remoteInfo = Luyuan;
+		};
+		18F2852A1FFB7C85005FEB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F284FE1FFB7C85005FEB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F285051FFB7C85005FEB55;
+			remoteInfo = Luyuan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F285061FFB7C85005FEB55 /* Luyuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luyuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F285091FFB7C85005FEB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F2850A1FFB7C85005FEB55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F2850C1FFB7C85005FEB55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F2850D1FFB7C85005FEB55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F285101FFB7C85005FEB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F285121FFB7C85005FEB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F285151FFB7C85005FEB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F285171FFB7C85005FEB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F285181FFB7C85005FEB55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F2851E1FFB7C85005FEB55 /* LuyuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuyuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F285221FFB7C85005FEB55 /* LuyuanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuyuanTests.m; sourceTree = "<group>"; };
+		18F285241FFB7C85005FEB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F285291FFB7C85005FEB55 /* LuyuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuyuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2852D1FFB7C85005FEB55 /* LuyuanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuyuanUITests.m; sourceTree = "<group>"; };
+		18F2852F1FFB7C85005FEB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F285031FFB7C85005FEB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2851B1FFB7C85005FEB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F285261FFB7C85005FEB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F284FD1FFB7C85005FEB55 = {
+			isa = PBXGroup;
+			children = (
+				18F285081FFB7C85005FEB55 /* Luyuan */,
+				18F285211FFB7C85005FEB55 /* LuyuanTests */,
+				18F2852C1FFB7C85005FEB55 /* LuyuanUITests */,
+				18F285071FFB7C85005FEB55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F285071FFB7C85005FEB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F285061FFB7C85005FEB55 /* Luyuan.app */,
+				18F2851E1FFB7C85005FEB55 /* LuyuanTests.xctest */,
+				18F285291FFB7C85005FEB55 /* LuyuanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F285081FFB7C85005FEB55 /* Luyuan */ = {
+			isa = PBXGroup;
+			children = (
+				18F285091FFB7C85005FEB55 /* AppDelegate.h */,
+				18F2850A1FFB7C85005FEB55 /* AppDelegate.m */,
+				18F2850C1FFB7C85005FEB55 /* ViewController.h */,
+				18F2850D1FFB7C85005FEB55 /* ViewController.m */,
+				18F2850F1FFB7C85005FEB55 /* Main.storyboard */,
+				18F285121FFB7C85005FEB55 /* Assets.xcassets */,
+				18F285141FFB7C85005FEB55 /* LaunchScreen.storyboard */,
+				18F285171FFB7C85005FEB55 /* Info.plist */,
+				18F285181FFB7C85005FEB55 /* main.m */,
+			);
+			path = Luyuan;
+			sourceTree = "<group>";
+		};
+		18F285211FFB7C85005FEB55 /* LuyuanTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F285221FFB7C85005FEB55 /* LuyuanTests.m */,
+				18F285241FFB7C85005FEB55 /* Info.plist */,
+			);
+			path = LuyuanTests;
+			sourceTree = "<group>";
+		};
+		18F2852C1FFB7C85005FEB55 /* LuyuanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2852D1FFB7C85005FEB55 /* LuyuanUITests.m */,
+				18F2852F1FFB7C85005FEB55 /* Info.plist */,
+			);
+			path = LuyuanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F285051FFB7C85005FEB55 /* Luyuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F285321FFB7C85005FEB55 /* Build configuration list for PBXNativeTarget "Luyuan" */;
+			buildPhases = (
+				18F285021FFB7C85005FEB55 /* Sources */,
+				18F285031FFB7C85005FEB55 /* Frameworks */,
+				18F285041FFB7C85005FEB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luyuan;
+			productName = Luyuan;
+			productReference = 18F285061FFB7C85005FEB55 /* Luyuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F2851D1FFB7C85005FEB55 /* LuyuanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F285351FFB7C85005FEB55 /* Build configuration list for PBXNativeTarget "LuyuanTests" */;
+			buildPhases = (
+				18F2851A1FFB7C85005FEB55 /* Sources */,
+				18F2851B1FFB7C85005FEB55 /* Frameworks */,
+				18F2851C1FFB7C85005FEB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F285201FFB7C85005FEB55 /* PBXTargetDependency */,
+			);
+			name = LuyuanTests;
+			productName = LuyuanTests;
+			productReference = 18F2851E1FFB7C85005FEB55 /* LuyuanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F285281FFB7C85005FEB55 /* LuyuanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F285381FFB7C85005FEB55 /* Build configuration list for PBXNativeTarget "LuyuanUITests" */;
+			buildPhases = (
+				18F285251FFB7C85005FEB55 /* Sources */,
+				18F285261FFB7C85005FEB55 /* Frameworks */,
+				18F285271FFB7C85005FEB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2852B1FFB7C85005FEB55 /* PBXTargetDependency */,
+			);
+			name = LuyuanUITests;
+			productName = LuyuanUITests;
+			productReference = 18F285291FFB7C85005FEB55 /* LuyuanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F284FE1FFB7C85005FEB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = DUKE.Wu;
+				TargetAttributes = {
+					18F285051FFB7C85005FEB55 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					18F2851D1FFB7C85005FEB55 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F285051FFB7C85005FEB55;
+					};
+					18F285281FFB7C85005FEB55 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F285051FFB7C85005FEB55;
+					};
+				};
+			};
+			buildConfigurationList = 18F285011FFB7C85005FEB55 /* Build configuration list for PBXProject "Luyuan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F284FD1FFB7C85005FEB55;
+			productRefGroup = 18F285071FFB7C85005FEB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F285051FFB7C85005FEB55 /* Luyuan */,
+				18F2851D1FFB7C85005FEB55 /* LuyuanTests */,
+				18F285281FFB7C85005FEB55 /* LuyuanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F285041FFB7C85005FEB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F285161FFB7C85005FEB55 /* LaunchScreen.storyboard in Resources */,
+				18F285131FFB7C85005FEB55 /* Assets.xcassets in Resources */,
+				18F285111FFB7C85005FEB55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2851C1FFB7C85005FEB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F285271FFB7C85005FEB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F285021FFB7C85005FEB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2850E1FFB7C85005FEB55 /* ViewController.m in Sources */,
+				18F285191FFB7C85005FEB55 /* main.m in Sources */,
+				18F2850B1FFB7C85005FEB55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2851A1FFB7C85005FEB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F285231FFB7C85005FEB55 /* LuyuanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F285251FFB7C85005FEB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2852E1FFB7C85005FEB55 /* LuyuanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F285201FFB7C85005FEB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F285051FFB7C85005FEB55 /* Luyuan */;
+			targetProxy = 18F2851F1FFB7C85005FEB55 /* PBXContainerItemProxy */;
+		};
+		18F2852B1FFB7C85005FEB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F285051FFB7C85005FEB55 /* Luyuan */;
+			targetProxy = 18F2852A1FFB7C85005FEB55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F2850F1FFB7C85005FEB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F285101FFB7C85005FEB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F285141FFB7C85005FEB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F285151FFB7C85005FEB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F285301FFB7C85005FEB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F285311FFB7C85005FEB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F285331FFB7C85005FEB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SFKS6C747;
+				INFOPLIST_FILE = Luyuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyi.luyuan.Luyuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F285341FFB7C85005FEB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SFKS6C747;
+				INFOPLIST_FILE = Luyuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyi.luyuan.Luyuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F285361FFB7C85005FEB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SFKS6C747;
+				INFOPLIST_FILE = LuyuanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyi.luyuan.LuyuanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luyuan.app/Luyuan";
+			};
+			name = Debug;
+		};
+		18F285371FFB7C85005FEB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SFKS6C747;
+				INFOPLIST_FILE = LuyuanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyi.luyuan.LuyuanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luyuan.app/Luyuan";
+			};
+			name = Release;
+		};
+		18F285391FFB7C85005FEB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SFKS6C747;
+				INFOPLIST_FILE = LuyuanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyi.luyuan.LuyuanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Luyuan;
+			};
+			name = Debug;
+		};
+		18F2853A1FFB7C85005FEB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SFKS6C747;
+				INFOPLIST_FILE = LuyuanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyi.luyuan.LuyuanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Luyuan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F285011FFB7C85005FEB55 /* Build configuration list for PBXProject "Luyuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F285301FFB7C85005FEB55 /* Debug */,
+				18F285311FFB7C85005FEB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F285321FFB7C85005FEB55 /* Build configuration list for PBXNativeTarget "Luyuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F285331FFB7C85005FEB55 /* Debug */,
+				18F285341FFB7C85005FEB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F285351FFB7C85005FEB55 /* Build configuration list for PBXNativeTarget "LuyuanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F285361FFB7C85005FEB55 /* Debug */,
+				18F285371FFB7C85005FEB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F285381FFB7C85005FEB55 /* Build configuration list for PBXNativeTarget "LuyuanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F285391FFB7C85005FEB55 /* Debug */,
+				18F2853A1FFB7C85005FEB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F284FE1FFB7C85005FEB55 /* Project object */;
+}
