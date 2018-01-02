@@ -15,6 +15,7 @@
 		18F285191FFB7C85005FEB55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F285181FFB7C85005FEB55 /* main.m */; };
 		18F285231FFB7C85005FEB55 /* LuyuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F285221FFB7C85005FEB55 /* LuyuanTests.m */; };
 		18F2852E1FFB7C85005FEB55 /* LuyuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2852D1FFB7C85005FEB55 /* LuyuanUITests.m */; };
+		18F2853D1FFB7D2C005FEB55 /* BikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2853C1FFB7D2C005FEB55 /* BikeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18F285291FFB7C85005FEB55 /* LuyuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuyuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F2852D1FFB7C85005FEB55 /* LuyuanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuyuanUITests.m; sourceTree = "<group>"; };
 		18F2852F1FFB7C85005FEB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2853B1FFB7D2C005FEB55 /* BikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BikeViewController.h; sourceTree = "<group>"; };
+		18F2853C1FFB7D2C005FEB55 /* BikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18F2850A1FFB7C85005FEB55 /* AppDelegate.m */,
 				18F2850C1FFB7C85005FEB55 /* ViewController.h */,
 				18F2850D1FFB7C85005FEB55 /* ViewController.m */,
+				18F2853B1FFB7D2C005FEB55 /* BikeViewController.h */,
+				18F2853C1FFB7D2C005FEB55 /* BikeViewController.m */,
 				18F2850F1FFB7C85005FEB55 /* Main.storyboard */,
 				18F285121FFB7C85005FEB55 /* Assets.xcassets */,
 				18F285141FFB7C85005FEB55 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F2850E1FFB7C85005FEB55 /* ViewController.m in Sources */,
+				18F2853D1FFB7D2C005FEB55 /* BikeViewController.m in Sources */,
 				18F285191FFB7C85005FEB55 /* main.m in Sources */,
 				18F2850B1FFB7C85005FEB55 /* AppDelegate.m in Sources */,
 			);
