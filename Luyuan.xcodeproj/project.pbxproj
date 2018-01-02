@@ -16,6 +16,7 @@
 		18F285231FFB7C85005FEB55 /* LuyuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F285221FFB7C85005FEB55 /* LuyuanTests.m */; };
 		18F2852E1FFB7C85005FEB55 /* LuyuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2852D1FFB7C85005FEB55 /* LuyuanUITests.m */; };
 		18F2853D1FFB7D2C005FEB55 /* BikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2853C1FFB7D2C005FEB55 /* BikeViewController.m */; };
+		18F285401FFB83EC005FEB55 /* hahhaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2853F1FFB83EC005FEB55 /* hahhaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		18F2852F1FFB7C85005FEB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F2853B1FFB7D2C005FEB55 /* BikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BikeViewController.h; sourceTree = "<group>"; };
 		18F2853C1FFB7D2C005FEB55 /* BikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeViewController.m; sourceTree = "<group>"; };
+		18F2853E1FFB83EC005FEB55 /* hahhaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hahhaViewController.h; sourceTree = "<group>"; };
+		18F2853F1FFB83EC005FEB55 /* hahhaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hahhaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				18F2850D1FFB7C85005FEB55 /* ViewController.m */,
 				18F2853B1FFB7D2C005FEB55 /* BikeViewController.h */,
 				18F2853C1FFB7D2C005FEB55 /* BikeViewController.m */,
+				18F2853E1FFB83EC005FEB55 /* hahhaViewController.h */,
+				18F2853F1FFB83EC005FEB55 /* hahhaViewController.m */,
 				18F2850F1FFB7C85005FEB55 /* Main.storyboard */,
 				18F285121FFB7C85005FEB55 /* Assets.xcassets */,
 				18F285141FFB7C85005FEB55 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 				18F2853D1FFB7D2C005FEB55 /* BikeViewController.m in Sources */,
 				18F285191FFB7C85005FEB55 /* main.m in Sources */,
 				18F2850B1FFB7C85005FEB55 /* AppDelegate.m in Sources */,
+				18F285401FFB83EC005FEB55 /* hahhaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
